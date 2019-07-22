@@ -17,10 +17,10 @@ Mechanic2.car_owner =  ["Jackson" , "Rob" ,"Alexa" ,"Katie"]
 Mechanic3.car_owner = ["Maria" , "John" , "Riley" , "Richard"]
 
 
-
 Car1 = Car.new("Mercedes" , "CLA Class", "Exotic")
 Car2 = Car.new("Volkswagen" , "Jetta", "Antique")
 Car3 = Car.new("Dodge", "Durango" ,"Clunker")
+
 
 
 

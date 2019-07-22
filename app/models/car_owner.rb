@@ -13,7 +13,12 @@ class CarOwner
   end
   
   def specific_owenr
-    Medhanics.all.select {|mechanic| mechanic.car_owner == self}
+    Mechanic.all.select {|mechanic| mechanic.name== self}
+  end
+  
+   def self.average_cars_owned
+    all_car_totals = CarOwner.all.map{|owner| owner.owner_total}
+    all_car_totals.reduce {|result, n| result + n} / all_car_totals.length.to_f
   end
   
 end
