@@ -12,6 +12,10 @@ class CarOwner
     @@all
   end
   
+  def specific_owenr
+    Medhanics.all.select {|mechanic| mechanic.car_owner == self}
+  end
+  
 end
 
 

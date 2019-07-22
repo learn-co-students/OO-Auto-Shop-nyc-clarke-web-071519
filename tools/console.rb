@@ -22,6 +22,6 @@ Car1 = Car.new("Mercedes" , "CLA Class", "Exotic")
 Car2 = Car.new("Volkswagen" , "Jetta", "Antique")
 Car3 = Car.new("Dodge", "Durango" ,"Clunker")
 
-CarOwner1 = ["Laura"]
+
 
 binding.pry
